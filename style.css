@@ -59,3 +59,42 @@ header {
     width: 100%;
     border-radius: 10px;
 }
+
+.reputation {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.rep-item {
+    background: #2b2b2b;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.rep-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+.rep-bar {
+    width: 100%;
+    height: 22px;
+    background: #1b1b1b;
+    border-radius: 11px;
+    overflow: hidden;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+}
+
+.rep-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #7a1f1f, #c9932f);
+    border-radius: 11px 0 0 11px;
+    transition: width 0.4s ease;
+}
